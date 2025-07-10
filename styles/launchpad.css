@@ -1,7 +1,8 @@
 
 /* nav styles */
-*{
+body{
     margin: 0;
+    background-color: #F5F8FF;
 }
 .header{
     display: flex;
@@ -63,4 +64,45 @@
   font-optical-sizing: auto;
   font-weight: bold;
   font-style: normal;
+}
+
+/* Action bar styles */
+.action-bar{
+  display:flex;
+  justify-content: center;
+  margin:116px 141px;
+}
+.action-img img{
+    width:403px;
+    height:328px;
+    border-radius: 48px;
+}
+.action-words{
+   padding:62.5px 220px 62.5px 0px;
+   text-align: left;
+} 
+.aw1{
+    font-size: 42px;
+    color:#252432;
+    margin-bottom: 23px;
+}
+.aw2{
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 30px;
+    color: rgb(37, 36, 50,0.5);
+    margin-bottom: 23px;
+    width: 517px;
+}
+.aw3{
+   font-size: 16px;
+   line-height: 150%;
+   width:229px;
+   height:48px;
+   color: #FFFFFF;
+   background-color: #4E47FF;
+   text-align: center;
+   padding: 12px 36px;
+   border:none;
+   border-radius: 10px;
 }
