@@ -223,3 +223,66 @@ body{
     line-height: 150%;
     color:#FFFFFF;
 }
+
+/* Contact */
+.contact{
+    max-width: 1140px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap:50px;
+    margin: auto;
+}
+.contact h3{
+    font-size: 97px;
+    line-height: 120%;
+    text-align: left;
+    color:#000000;
+    padding: 71px 115px 129px 0px;
+}
+.contact-form{
+    max-width:497px;
+    display: flex;
+    flex-direction:column;
+}
+.contact input[type="text"], input[type="email"], textarea{
+    width:100%;
+    padding: 20px 32px;
+    border-radius: 10px;
+    border: none;
+    stroke:#D6DDED;
+    font-size: 20px;
+}
+.contact textarea{
+    resize:none;
+}
+.contact-form label{
+    font-size: 18px;
+    line-height: 120%;
+    text-align: left;
+    color:#000000;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.contact-form ::placeholder{
+    font-size: 20px;
+    line-height: 150%;
+    color:rgb(0, 0, 0,o.5);
+    text-align:left;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+}
+.contact-form button{
+    background-color: #4E47FF;
+    color:#FFFFFF;
+    border-radius: 10px;
+    padding: 19px 101px;
+    font-size: 16px;
+    line-height: 150%;
+    margin-top: 20px;
+    border: none;
+    width: 117%; 
+}
+
+/* footer styles */
