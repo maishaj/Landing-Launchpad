@@ -1,9 +1,25 @@
-
-/* nav styles */
 body{
     margin: 0;
     background-color: #F5F8FF;
 }
+
+
+/* used many times */
+.inter-navfont1 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+.raleway-font2{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style:normal;
+}
+.navbutton:hover,.h-btn:hover,.aw3:hover,.focus-details button:hover,.contact-form button:hover{
+    background-color: #6c63ff;
+}
+
+
+/* nav styles */
 .header{
     display: flex;
     justify-content:space-between;
@@ -12,17 +28,15 @@ body{
     max-width:1440px;
     max-height:698px;
 }
-.inter-navfont1 {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: bolder;
-  font-size: 34px;
-  line-height: 150%;
-  color: #4e4bff;
-  margin-top: 50px;
+.logoo{
+    font-weight: 900;
+    font-size: 34px;
+    line-height: 150%;
+    color: #4e4bff;
+    margin-top: 50px;
 }
 .navbutton{
-    width:132px;
+    width:135px;
     height:48px;
     padding: 12px 36px;
     border: none;
@@ -30,7 +44,12 @@ body{
     background-color:#4E47FF;
     color:#FFFFFF;
     margin-top: 50px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+    line-height: 150%;
 }
+
 .navclass{
     background-image: url('../images/Hero-bg.png');
     background-repeat: no-repeat;
@@ -47,9 +66,10 @@ body{
    font-size: 65px;
    color:#252432;
    text-align:center;
+   font-weight: bold;
 }
 .h-btn{
-   width:174px;
+   width:178px;
    height:48px;
    padding: 12px 36px;
    background-color: #4E47FF;
@@ -58,13 +78,12 @@ body{
    border-radius: 10px;
    display: block;
    margin: 37px auto;
+   font-size: 16px;
+   line-height: 150%;
+   font-weight: 700;
 }
-.raleway-font2{
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: bold;
-  font-style: normal;
-}
+
+
 
 /* Action bar styles */
 .action-bar{
@@ -104,8 +123,11 @@ body{
    text-align: center;
    padding: 12px 36px;
    border:none;
+   font-weight: bold;
    border-radius: 10px;
 }
+
+
 
 /* Productive Users */
 .users{
@@ -120,11 +142,13 @@ body{
     font-size: 38px;
     color: #252432;
     margin-bottom: 20px;
+    font-weight: bold;
 }
 .users-num{
     display:flex;
     justify-content:space-between;
     align-items: center;
+    margin-top: 20px;
 }
 .users-num h1{
     color:#4E47FF;
@@ -133,7 +157,11 @@ body{
 }
 .users-num h5{
     color: rgb(0, 0, 0,0.5);
+    margin-top: 8px;
+    font-weight: normal;
+    font-size: 20px;
 }
+
 
 /* What our users say */
 .users-say{
@@ -145,6 +173,7 @@ body{
     font-size: 42px;
     color:#252432;
     margin-bottom: 50px;
+    font-weight: bold;
 }
 .card-container{
     display: flex;
@@ -163,6 +192,7 @@ body{
 .card h4{
     color:#1E1E1E;
     font-size: 30px;
+    margin-bottom: 8px;
 }
 .card p{
     font-size: 20px;
@@ -199,6 +229,7 @@ body{
     color:#000000;
     line-height: 120%;
     margin-bottom: 20px;
+    font-weight: bold;
 }
 .focus-details p{
     font-size: 25px;
@@ -220,9 +251,12 @@ body{
     background-color: #4E47FF;
     font-size: 16px;
     margin-bottom: 20px;
+    font-weight: 500;
     line-height: 150%;
     color:#FFFFFF;
 }
+
+
 
 /* Contact */
 .contact{
@@ -232,6 +266,7 @@ body{
     text-align: center;
     gap:50px;
     margin: auto;
+    margin-bottom: 14px;
 }
 .contact h3{
     font-size: 97px;
@@ -249,8 +284,7 @@ body{
     width:100%;
     padding: 20px 32px;
     border-radius: 10px;
-    border: none;
-    stroke:#D6DDED;
+    border: 0.05px solid #D6DDED;
     font-size: 20px;
 }
 .contact textarea{
@@ -283,6 +317,41 @@ body{
     margin-top: 20px;
     border: none;
     width: 117%; 
+    font-weight: bold;
 }
 
+
 /* footer styles */
+.last{
+    width: 100%;
+    background-color: #FFFFFF;
+    display: block;
+    margin: auto;
+    padding:104px 0px;
+}
+.footer-par{
+    width:540px;
+    height:221px;
+    margin: auto;
+}
+.last h3{
+    color:#4E47FF;
+    font-size: 100px;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 8px;
+}
+.last p,a{
+    text-align: center;
+    color:#8987A1;
+    font-size: 20px;
+    text-decoration:none;
+}
+.last ul{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    list-style: none;
+    gap:48px;
+    color: #8987A1;
+}
