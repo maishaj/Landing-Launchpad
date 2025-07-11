@@ -184,3 +184,42 @@ body{
     color:#757575;
     margin: 0px;
 }
+.focus{
+    width: 1140px;
+    background-color: #FFFFFF;
+    padding: 71px 150px;
+    border-radius: 14px;
+    margin: 137px auto;
+}
+.focus-details{
+    text-align: center;
+}
+.focus-details h3{
+    font-size: 50px;
+    color:#000000;
+    line-height: 120%;
+    margin-bottom: 20px;
+}
+.focus-details p{
+    font-size: 25px;
+    color:rgb(0, 0, 0,0.5);
+    margin-bottom: 20px;
+}
+.focus img{
+    border-radius: 48px;
+    display: block;
+    margin:auto;
+    width:840px;
+    height:364px;
+}
+.focus-details button{
+    text-align: center;
+    padding: 12px 36px;
+    border-radius: 10px;
+    border: none;
+    background-color: #4E47FF;
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 150%;
+    color:#FFFFFF;
+}
