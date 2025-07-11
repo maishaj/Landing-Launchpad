@@ -106,3 +106,81 @@ body{
    border:none;
    border-radius: 10px;
 }
+
+/* Productive Users */
+.users{
+    max-width: 1140px;
+    background-color: rgba(78, 71, 255, 0.1);
+    margin: 50px auto;
+    border-radius: 24px;
+    padding:50px 142px;
+}
+.u1{
+    text-align: center;
+    font-size: 38px;
+    color: #252432;
+    margin-bottom: 20px;
+}
+.users-num{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.users-num h1{
+    color:#4E47FF;
+    font-size: 70px;
+    margin-bottom:0px;
+}
+.users-num h5{
+    color: rgb(0, 0, 0,0.5);
+}
+
+/* What our users say */
+.users-say{
+    display: block;
+    margin:137px auto;
+}
+.users-say h3{
+    text-align: center;
+    font-size: 42px;
+    color:#252432;
+    margin-bottom: 50px;
+}
+.card-container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 20px;
+}
+.card{
+   text-align: left;
+   width:366px;
+   background-color: #FFFFFF;
+   padding: 24px 24px;
+   border-radius: 14px;
+
+}
+.card h4{
+    color:#1E1E1E;
+    font-size: 30px;
+}
+.card p{
+    font-size: 20px;
+    color:#1e1e1e;
+}
+.reviewer img{
+   width: 40px;
+   height: 40px;
+   border-radius: 50px;
+}
+.reviewer{
+    display: flex;
+    align-items: center;
+    flex-direction:row;
+    gap:10px;
+}
+.reviews-inside p{
+    font-size: 18px;
+    color:#757575;
+    margin: 0px;
+}
